@@ -1,0 +1,67 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+    height: 600px; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+.contentcontainer {
+ 
+    background-color: #f1f1f1;
+  padding: 10px;
+    float:right;
+   
+   
+    overflow: hidden;
+    
+}
+
+.contentcontainer > .Main {
+    width: 1200px;
+     height: 300px;
+    float:inherit;
+    background-color: red;
+    padding: 10px;
+    padding-bottom: #f1f1f1;
+    border-bottom-color: aliceblue;
+    
+}
+
+.contentcontainer > .right {
+    
+   width:1200px; 
+    float: inherit;
+    background-color: aqua;
+    height: 300px;
+    padding: 10px;
+    padding-bottom: #f1f1f1;
+    border-bottom-color: aliceblue;
+}
+
+footer {
+  content: "";
+  display: table;
+  clear: both;
+    background-color: aqua;
+    width: 1512px;
+    height: 70px;
+}
